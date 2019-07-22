@@ -1,0 +1,1 @@
+call taskkill /im nginx.exe /f

@@ -1,0 +1,6 @@
+
+-- api table
+http://127.0.0.1:8080/api/api_table_lua
+
+-- test1
+http://127.0.0.1:8080/test/test1

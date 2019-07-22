@@ -1,0 +1,478 @@
+2019/07/19 11:05:39 [notice] 12812#14244: using the "select" event method
+2019/07/19 11:05:39 [notice] 12812#14244: openresty/1.15.8.1
+2019/07/19 11:05:39 [info] 12812#14244: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:05:39 [notice] 12812#14244: start worker processes
+2019/07/19 11:05:39 [notice] 12812#14244: start worker process 8256
+2019/07/19 11:05:39 [notice] 8256#3120: openresty/1.15.8.1
+2019/07/19 11:05:39 [info] 8256#3120: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:05:39 [notice] 8256#3120: create thread 10268
+2019/07/19 11:05:39 [notice] 8256#3120: create thread 6676
+2019/07/19 11:05:39 [notice] 8256#3120: create thread 9348
+2019/07/19 11:05:54 [error] 8256#10268: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:06:13 [notice] 5204#3100: using the "select" event method
+2019/07/19 11:06:13 [notice] 5204#3100: openresty/1.15.8.1
+2019/07/19 11:06:13 [info] 5204#3100: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:06:13 [notice] 5204#3100: start worker processes
+2019/07/19 11:06:13 [notice] 5204#3100: start worker process 10696
+2019/07/19 11:06:13 [notice] 10696#6224: openresty/1.15.8.1
+2019/07/19 11:06:13 [info] 10696#6224: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:06:13 [notice] 10696#6224: create thread 12836
+2019/07/19 11:06:13 [notice] 10696#6224: create thread 14312
+2019/07/19 11:06:13 [notice] 10696#6224: create thread 10628
+2019/07/19 11:06:15 [error] 10696#12836: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:06:16 [error] 10696#12836: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:06:17 [error] 10696#12836: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:06:17 [error] 10696#12836: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:06:31 [info] 10696#12836: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:07:02 [notice] 13060#11928: using the "select" event method
+2019/07/19 11:07:02 [notice] 13060#11928: openresty/1.15.8.1
+2019/07/19 11:07:02 [info] 13060#11928: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:07:02 [notice] 13060#11928: start worker processes
+2019/07/19 11:07:02 [notice] 13060#11928: start worker process 4536
+2019/07/19 11:07:02 [notice] 4536#6260: openresty/1.15.8.1
+2019/07/19 11:07:02 [info] 4536#6260: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:07:02 [notice] 4536#6260: create thread 6844
+2019/07/19 11:07:02 [notice] 4536#6260: create thread 9336
+2019/07/19 11:07:02 [notice] 4536#6260: create thread 8788
+2019/07/19 11:07:10 [error] 4536#6844: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:07:10 [error] 4536#6844: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:07:10 [error] 4536#6844: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:07:11 [error] 4536#6844: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:07:26 [notice] 7016#3968: using the "select" event method
+2019/07/19 11:07:26 [notice] 7016#3968: openresty/1.15.8.1
+2019/07/19 11:07:26 [info] 7016#3968: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:07:26 [notice] 7016#3968: start worker processes
+2019/07/19 11:07:26 [notice] 7016#3968: start worker process 11112
+2019/07/19 11:07:26 [notice] 11112#6332: openresty/1.15.8.1
+2019/07/19 11:07:26 [info] 11112#6332: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:07:26 [notice] 11112#6332: create thread 13604
+2019/07/19 11:07:26 [notice] 11112#6332: create thread 14280
+2019/07/19 11:07:26 [notice] 11112#6332: create thread 10316
+2019/07/19 11:07:30 [error] 11112#13604: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:08:13 [info] 11112#13604: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:08:41 [error] 11112#13604: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:09:04 [info] 11112#13604: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:09:12 [error] 11112#13604: *1 failed to load external Lua file "./lua/api_table_lua.lua": cannot open ./lua/api_table_lua.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/api_table_lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:09:21 [notice] 1104#10424: using the "select" event method
+2019/07/19 11:09:21 [notice] 1104#10424: openresty/1.15.8.1
+2019/07/19 11:09:21 [info] 1104#10424: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:09:21 [notice] 1104#10424: start worker processes
+2019/07/19 11:09:21 [notice] 1104#10424: start worker process 9564
+2019/07/19 11:09:21 [notice] 9564#13284: openresty/1.15.8.1
+2019/07/19 11:09:21 [info] 9564#13284: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:09:21 [notice] 9564#13284: create thread 9408
+2019/07/19 11:09:21 [notice] 9564#13284: create thread 13892
+2019/07/19 11:09:21 [notice] 9564#13284: create thread 1772
+2019/07/19 11:09:40 [notice] 324#6920: using the "select" event method
+2019/07/19 11:09:40 [notice] 324#6920: openresty/1.15.8.1
+2019/07/19 11:09:40 [info] 324#6920: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:09:40 [notice] 324#6920: start worker processes
+2019/07/19 11:09:40 [notice] 324#6920: start worker process 11084
+2019/07/19 11:09:40 [notice] 11084#7384: openresty/1.15.8.1
+2019/07/19 11:09:40 [info] 11084#7384: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:09:40 [notice] 11084#7384: create thread 12824
+2019/07/19 11:09:40 [notice] 11084#7384: create thread 9800
+2019/07/19 11:09:40 [notice] 11084#7384: create thread 11180
+2019/07/19 11:09:55 [info] 11084#12824: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:10:32 [notice] 2672#13660: using the "select" event method
+2019/07/19 11:10:32 [notice] 2672#13660: openresty/1.15.8.1
+2019/07/19 11:10:32 [info] 2672#13660: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:10:32 [notice] 2672#13660: start worker processes
+2019/07/19 11:10:32 [notice] 2672#13660: start worker process 10160
+2019/07/19 11:10:32 [notice] 10160#11392: openresty/1.15.8.1
+2019/07/19 11:10:32 [info] 10160#11392: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/19 11:10:32 [notice] 10160#11392: create thread 6816
+2019/07/19 11:10:32 [notice] 10160#11392: create thread 14260
+2019/07/19 11:10:32 [notice] 10160#11392: create thread 12640
+2019/07/19 11:10:46 [info] 10160#6816: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:11:16 [info] 10160#6816: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:11:37 [info] 10160#6816: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:12:10 [error] 10160#6816: *1 failed to load external Lua file "./lua/api/test1.lua": cannot open ./lua/api/test1.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/test1 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 11:12:28 [info] 10160#6816: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:21:39 [info] 10160#6816: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:21:49 [info] 10160#6816: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:22:40 [info] 10160#6816: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:23:31 [info] 10160#6816: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 11:26:57 [info] 10160#6816: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:18:17 [notice] 10160#6816: *13 [lua] api_metatable.lua:14: 1.1.1, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:18:28 [info] 10160#6816: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:18:44 [info] 10160#6816: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:20:02 [error] 10160#6816: *16 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:02 [error] 10160#6816: *17 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:02 [error] 10160#6816: *18 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:02 [error] 10160#6816: *19 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:07 [error] 10160#6816: *20 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:07 [error] 10160#6816: *21 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:07 [error] 10160#6816: *22 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:37 [error] 10160#6816: *23 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:20:47 [info] 10160#6816: *24 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:21:37 [error] 10160#6816: *26 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:18: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 13:22:02 [info] 10160#6816: *25 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:22:29 [info] 10160#6816: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:32:16 [info] 10160#6816: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 13:32:41 [info] 10160#6816: *31 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 14:03:34 [info] 10160#6816: *33 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 14:03:51 [info] 10160#6816: *34 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 14:04:31 [error] 10160#6816: *32 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:04:31 [error] 10160#6816: *35 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:04:31 [error] 10160#6816: *36 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:04:32 [error] 10160#6816: *37 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:04:37 [error] 10160#6816: *38 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:04:37 [error] 10160#6816: *39 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:04:37 [error] 10160#6816: *40 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:07:23 [error] 10160#6816: *41 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:07:23 [error] 10160#6816: *42 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:07:23 [error] 10160#6816: *43 lua entry thread aborted: runtime error: ./lua/api/api_metatable.lua:42: attempt to call global 'index' (a nil value)
+stack traceback:
+coroutine 0:
+	./lua/api/api_metatable.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_metatable HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:07:49 [info] 10160#6816: *45 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 14:14:10 [error] 10160#6816: *46 lua entry thread aborted: runtime error: ./lua/test2.lua:2: attempt to index local 'mysql' (a boolean value)
+stack traceback:
+coroutine 0:
+	./lua/test2.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test2 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:14:21 [info] 10160#6816: *47 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 14:15:04 [error] 10160#6816: *48 lua entry thread aborted: runtime error: .//lua/test1.lua:6: attempt to call global 'tcp' (a nil value)
+stack traceback:
+coroutine 0:
+	.//lua/test1.lua: in function 'new'
+	./lua/test2.lua:4: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test2 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 14:15:16 [info] 10160#6816: *49 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 15:01:54 [info] 10160#6816: *51 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 15:46:01 [info] 10160#6816: *53 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 15:47:14 [info] 10160#6816: *54 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 15:52:30 [info] 10160#6816: *56 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 15:58:18 [info] 10160#6816: *58 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:00:06 [info] 10160#6816: *60 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:00:21 [info] 10160#6816: *61 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:00:39 [info] 10160#6816: *62 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:01:21 [info] 10160#6816: *63 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:01:42 [info] 10160#6816: *64 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:02:54 [info] 10160#6816: *65 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:03:12 [info] 10160#6816: *66 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:03:51 [notice] 10160#6816: *59 [lua] test3.lua:15: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:03:51 [notice] 10160#6816: *59 [lua] test3.lua:15: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:03:52 [notice] 10160#6816: *59 [lua] test3.lua:15: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:04:03 [info] 10160#6816: *67 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:04:24 [info] 10160#6816: *68 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:05:29 [info] 10160#6816: *69 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:05:29 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:30 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:30 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:30 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:31 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:31 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:31 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:45 [info] 10160#6816: *70 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:05:50 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:51 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:51 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:05:51 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:06 [info] 10160#6816: *71 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:06:40 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:41 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:41 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:41 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:41 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:42 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:06:57 [info] 10160#6816: *72 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:07:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:18 [info] 10160#6816: *73 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:07:25 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:25 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:25 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:26 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:39 [info] 10160#6816: *74 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:07:39 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:39 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:39 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:39 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:39 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:39 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:40 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:07:51 [info] 10160#6816: *75 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:08:54 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:54 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:55 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:56 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:08:56 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:00 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:00 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:01 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:01 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:01 [notice] 10160#6816: *59 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:01 [notice] 10160#6816: *59 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:09:12 [info] 10160#6816: *76 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:10:25 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:25 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:26 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:27 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:27 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:27 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:27 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:33 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:33 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:33 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:33 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:33 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:33 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:34 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:34 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:10:37 [info] 10160#6816: *78 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:11:43 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:11:43 [notice] 10160#6816: *77 [lua] test3.lua:17: func, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:11:54 [info] 10160#6816: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:11:58 [notice] 10160#6816: *77 [lua] test3.lua:16: nil, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:13 [info] 10160#6816: *80 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:12:13 [error] 10160#6816: *77 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:13 [error] 10160#6816: *81 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:13 [error] 10160#6816: *82 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:13 [error] 10160#6816: *83 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:18 [error] 10160#6816: *84 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:18 [error] 10160#6816: *85 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:18 [error] 10160#6816: *86 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:12:48 [error] 10160#6816: *87 lua entry thread aborted: runtime error: ./lua/test3.lua:16: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:13:06 [info] 10160#6816: *88 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:13:46 [info] 10160#6816: *90 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:14:42 [error] 10160#6816: *89 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:14:42 [error] 10160#6816: *91 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:14:42 [error] 10160#6816: *92 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:14:42 [error] 10160#6816: *93 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:14:47 [error] 10160#6816: *94 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:14:47 [error] 10160#6816: *95 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:14:47 [error] 10160#6816: *96 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:15:17 [error] 10160#6816: *97 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:15:17 [error] 10160#6816: *98 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:15:17 [error] 10160#6816: *99 lua entry thread aborted: runtime error: ./lua/test3.lua:17: attempt to concatenate a nil value
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:15:39 [info] 10160#6816: *101 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:18:03 [error] 10160#6816: *102 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:03 [error] 10160#6816: *103 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:03 [error] 10160#6816: *104 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:03 [error] 10160#6816: *105 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:08 [error] 10160#6816: *106 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:08 [error] 10160#6816: *107 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:08 [error] 10160#6816: *108 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:38 [error] 10160#6816: *109 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:18:51 [info] 10160#6816: *110 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:19:38 [error] 10160#6816: *112 lua entry thread aborted: runtime error: ./lua/test3.lua:17: bad argument #1 to 'pairs' (value expected)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	./lua/test3.lua:17: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:19:49 [info] 10160#6816: *111 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:22:23 [error] 10160#6816: *113 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a function value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:22:23 [error] 10160#6816: *114 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a function value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:22:23 [error] 10160#6816: *115 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a function value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:04 [info] 10160#6816: *117 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:23:28 [error] 10160#6816: *116 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:28 [error] 10160#6816: *118 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:28 [error] 10160#6816: *119 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:28 [error] 10160#6816: *120 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:33 [error] 10160#6816: *121 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:33 [error] 10160#6816: *122 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:23:33 [error] 10160#6816: *123 lua entry thread aborted: runtime error: ./lua/test3.lua:18: attempt to concatenate local 'k' (a table value)
+stack traceback:
+coroutine 0:
+	./lua/test3.lua: in main chunk, client: 127.0.0.1, server: , request: "GET /test/test3 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/19 16:24:22 [info] 10160#6816: *125 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:24:43 [info] 10160#6816: *126 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:25:18 [info] 10160#6816: *127 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:25:34 [info] 10160#6816: *128 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:25:47 [info] 10160#6816: *129 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:46:57 [info] 10160#6816: *131 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/19 16:57:38 [info] 10160#6816: *133 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
