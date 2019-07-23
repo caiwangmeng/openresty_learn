@@ -476,3 +476,38 @@ coroutine 0:
 2019/07/19 16:25:47 [info] 10160#6816: *129 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
 2019/07/19 16:46:57 [info] 10160#6816: *131 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
 2019/07/19 16:57:38 [info] 10160#6816: *133 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:04:01 [notice] 11736#8168: using the "select" event method
+2019/07/22 17:04:01 [notice] 11736#8168: openresty/1.15.8.1
+2019/07/22 17:04:01 [info] 11736#8168: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/22 17:04:01 [notice] 11736#8168: start worker processes
+2019/07/22 17:04:01 [notice] 11736#8168: start worker process 5424
+2019/07/22 17:04:01 [notice] 5424#10824: openresty/1.15.8.1
+2019/07/22 17:04:01 [info] 5424#10824: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/22 17:04:01 [notice] 5424#10824: create thread 9456
+2019/07/22 17:04:01 [notice] 5424#10824: create thread 2600
+2019/07/22 17:04:01 [notice] 5424#10824: create thread 8580
+2019/07/22 17:04:52 [notice] 5424#9456: *1 [lua] test10.lua:3: {}, client: 127.0.0.1, server: , request: "GET /test/test10 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/22 17:04:52 [error] 5424#9456: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/test/test10"
+2019/07/22 17:05:05 [info] 5424#9456: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:05:35 [info] 5424#9456: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:06:35 [info] 5424#9456: *4 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:06:41 [notice] 5424#9456: *1 [lua] test10.lua:3: [], client: 127.0.0.1, server: , request: "GET /test/test10 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/22 17:06:54 [info] 5424#9456: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:07:20 [info] 5424#9456: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:08:22 [info] 5424#9456: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:08:39 [info] 5424#9456: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 17:09:08 [info] 5424#9456: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 21:19:35 [info] 5424#9456: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/22 21:21:53 [notice] 6004#10824: using the "select" event method
+2019/07/22 21:21:53 [notice] 6004#10824: openresty/1.15.8.1
+2019/07/22 21:21:53 [info] 6004#10824: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/22 21:21:53 [notice] 6004#10824: start worker processes
+2019/07/22 21:21:53 [notice] 6004#10824: start worker process 3972
+2019/07/22 21:21:53 [notice] 3972#12644: openresty/1.15.8.1
+2019/07/22 21:21:53 [info] 3972#12644: OS: 300000 build:17134, "", suite:100, type:1
+2019/07/22 21:21:53 [notice] 3972#12644: create thread 10124
+2019/07/22 21:21:53 [notice] 3972#12644: create thread 6760
+2019/07/22 21:21:53 [notice] 3972#12644: create thread 13596
+2019/07/22 21:22:17 [info] 3972#10124: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/07/23 10:21:31 [error] 3972#10124: *3 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/test/test10"
+2019/07/23 10:21:43 [info] 3972#10124: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080

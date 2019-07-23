@@ -1,0 +1,11 @@
+2019/07/22 17:04:01 [alert] 11736#8168: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2019/07/22 17:04:01 [alert] 5424#10824: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2019/07/22 17:04:52 [error] 5424#9456: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/test/test10"
+2019/07/22 21:21:53 [alert] 6004#10824: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2019/07/22 21:21:53 [alert] 3972#12644: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2019/07/23 10:21:31 [error] 3972#10124: *3 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/test/test10"
+2019/07/23 15:22:01 [alert] 7808#1456: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2019/07/23 15:22:01 [alert] 15868#11516: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:34
+2019/07/23 15:22:23 [error] 15868#10320: *1 lua tcp socket connect timed out, when connecting to 47.92.220.76:6379, client: 127.0.0.1, server: , request: "GET /test/redis_client HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/23 15:29:58 [error] 15868#10320: *4 lua tcp socket connect timed out, when connecting to 47.92.220.76:6379, client: 127.0.0.1, server: , request: "GET /test/redis_client HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/23 15:39:43 [error] 15868#10320: *7 lua tcp socket connect timed out, when connecting to 47.92.220.76:6379, client: 127.0.0.1, server: , request: "GET /test/redis_client HTTP/1.1", host: "127.0.0.1:8080"
