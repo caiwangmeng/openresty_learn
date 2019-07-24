@@ -1,0 +1,243 @@
+2019/07/23 22:02:56 [alert] 10124#13380: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:34
+2019/07/23 22:02:56 [alert] 9268#15444: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:34
+2019/07/23 22:03:36 [alert] 5872#13700: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:34
+2019/07/23 22:03:36 [alert] 11936#16184: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:34
+2019/07/23 22:04:37 [emerg] 16128#15212: no "events" section in configuration
+2019/07/23 22:05:21 [error] 9168#7664: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/demo"
+2019/07/23 22:08:29 [error] 15784#11996: *1 CreateFile() "./html/across_stage_test" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /across_stage_test HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/23 22:09:21 [alert] 4332#15292: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/23 22:09:21 [alert] 15264#8048: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/23 22:12:38 [alert] 14528#11040: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/23 22:12:38 [alert] 11644#13908: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:24:23 [alert] 3304#6292: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:24:23 [alert] 5552#5196: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:24:38 [error] 5552#6948: *1 lua entry thread aborted: runtime error: content_by_lua(nginx1.conf:35):2: attempt to index global 'dogs' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx1.conf:35): in main chunk, client: 127.0.0.1, server: , request: "GET /get HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 10:24:38 [error] 5552#6948: *2 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/get"
+2019/07/24 10:25:04 [error] 5552#6948: *2 lua entry thread aborted: runtime error: content_by_lua(nginx1.conf:35):2: attempt to index global 'dogs' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx1.conf:35): in main chunk, client: 127.0.0.1, server: , request: "GET /get HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 10:25:58 [alert] 10064#11212: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:25:58 [alert] 4332#10372: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:27:16 [alert] 5072#10804: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:27:16 [alert] 3252#10508: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:27:19 [error] 3252#4228: *1 failed to load inlined Lua code: content_by_lua(nginx1.conf:37):8: unfinished string near '", data)', client: 127.0.0.1, server: , request: "GET /get HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 10:27:46 [alert] 1308#8872: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:27:46 [alert] 9316#4100: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:29:05 [alert] 7096#7596: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:29:05 [alert] 5520#3716: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:15
+2019/07/24 10:33:44 [alert] 5804#3680: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:18
+2019/07/24 10:33:44 [alert] 10824#4292: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:18
+2019/07/24 10:33:56 [error] 10824#10624: *1 failed to load external Lua file "./lua/api/test1.lua": cannot open ./lua/api/test1.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/test1 HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 10:35:40 [alert] 3532#808: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 10:35:40 [alert] 8572#7532: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 11:08:50 [alert] 3208#6812: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 11:08:50 [alert] 1872#5080: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 11:10:37 [error] 1872#4676: *1 failed to load external Lua file "./lua/api/shared_dict_get.lua": ./lua/api/shared_dict_get.lua:4: unexpected symbol near '[', client: 127.0.0.1, server: , request: "GET /api/shared_dict_get HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 13:21:02 [error] 1872#4676: *12 lua entry thread aborted: runtime error: F:\worklearn\openresty_learn\openresty\lualib\ngx\re.lua:47: missing declaration for symbol 'ngx_http_lua_ffi_exec_regex'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./lua/api/api_0_not_in_lua_nginx_module.lua:9: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_0_not_in_lua_nginx_module HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 13:24:50 [error] 1872#4676: *14 lua entry thread aborted: runtime error: .//lua/lib\ngx\re.lua:53: missing declaration for symbol 'ngx_http_lua_ffi_exec_regex'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./lua/api/api_0_not_in_lua_nginx_module.lua:9: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_0_not_in_lua_nginx_module HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 13:31:27 [alert] 9996#8312: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 13:31:27 [notice] 9996#8312: signal process started
+2019/07/24 13:31:27 [alert] 3208#6812: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 13:31:27 [alert] 4824#1420: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 13:31:36 [error] 4824#7584: *16 lua entry thread aborted: runtime error: F:\worklearn\openresty_learn\openresty\lualib\ngx\re.lua:47: missing declaration for symbol 'ngx_http_lua_ffi_exec_regex'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./lua/api/api_0_not_in_lua_nginx_module.lua:9: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_0_not_in_lua_nginx_module HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 13:46:56 [alert] 10632#5460: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 13:46:56 [alert] 916#8392: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 13:47:24 [alert] 11104#1080: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 13:47:24 [notice] 11104#1080: signal process started
+2019/07/24 13:47:24 [alert] 10632#5460: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 13:47:24 [alert] 1640#9356: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 13:48:55 [error] 1640#3952: *13 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/api/api_ngx_var"
+2019/07/24 14:03:25 [error] 1640#3952: *28 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:25 [error] 1640#3952: *29 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:25 [error] 1640#3952: *30 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:25 [error] 1640#3952: *31 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:25 [error] 1640#3952: *32 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:25 [error] 1640#3952: *33 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:30 [error] 1640#3952: *34 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:30 [error] 1640#3952: *35 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:03:30 [error] 1640#3952: *36 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:04:00 [error] 1640#3952: *37 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:04:00 [error] 1640#3952: *38 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:04:00 [error] 1640#3952: *39 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:13: bad argument #1 to 'say' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./lua/api/api_ngx_var.lua:13: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:09:55 [error] 1640#3952: *48 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:09:55 [error] 1640#3952: *51 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:09:55 [error] 1640#3952: *52 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:09:56 [error] 1640#3952: *53 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:09:56 [error] 1640#3952: *54 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:09:56 [error] 1640#3952: *55 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:10:01 [error] 1640#3952: *57 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:10:01 [error] 1640#3952: *56 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 14:10:01 [error] 1640#3952: *58 lua entry thread aborted: runtime error: ./lua/api/api_ngx_var.lua:14: bad method number
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	...\openresty_learn\openresty\lualib\resty\core\request.lua:276: in function 'set_method'
+	./lua/api/api_ngx_var.lua:14: in main chunk, client: 127.0.0.1, server: , request: "GET /api/api_ngx_var HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 15:21:22 [alert] 5088#11268: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:21:22 [notice] 5088#11268: signal process started
+2019/07/24 15:21:22 [alert] 10632#5460: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:21:23 [alert] 12284#7576: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:22:39 [error] 12284#7004: *66 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /proxy/api/api_ngx_var HTTP/1.1", upstream: "http://127.0.0.1:80/api/api_ngx_var", host: "127.0.0.1:8080"
+2019/07/24 15:23:20 [alert] 7636#11724: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:23:20 [notice] 7636#11724: signal process started
+2019/07/24 15:23:20 [alert] 10632#5460: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:23:20 [alert] 11308#11728: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:23:22 [alert] 11788#8040: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:23:22 [notice] 11788#8040: signal process started
+2019/07/24 15:23:22 [alert] 10632#5460: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:23:22 [alert] 9688#11004: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:24:25 [error] 9688#3860: *71 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /proxy/api/api_ngx_var HTTP/1.1", upstream: "http://127.0.0.1:80/api/api_ngx_var", host: "127.0.0.1:8080"
+2019/07/24 15:24:33 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:24:33 [alert] 2600#1988: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:26:32 [alert] 11652#10564: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:26:32 [notice] 11652#10564: signal process started
+2019/07/24 15:26:32 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:26:32 [alert] 5380#11540: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:26:34 [alert] 5012#3360: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:26:34 [notice] 5012#3360: signal process started
+2019/07/24 15:26:34 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:26:34 [alert] 11464#1060: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:26:57 [error] 11464#6940: *6 failed to load external Lua file "./lua/api/usercenter/login.lua": cannot open ./lua/api/usercenter/login.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/usercenter/login?msg=1&_=1563953217776 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *6 failed to load external Lua file "./lua/api/wikiui/sharecounter.lua": cannot open ./lua/api/wikiui/sharecounter.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/wikiui/sharecounter?lemmaId=6602849&method=get HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *6 CreateFile() "./html/wikiui/api/zhixinmap" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /wikiui/api/zhixinmap?lemmaId=6602849 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *6 failed to load external Lua file "./lua/api/lemmapv.lua": cannot open ./lua/api/lemmapv.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/lemmapv?id=114318e90a8dafeee6939765&r=0.29116564608225626 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *9 failed to load external Lua file "./lua/api/wikiui/getasp.lua": cannot open ./lua/api/wikiui/getasp.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/wikiui/getasp?word=11%B6%D4%D5%BD%C6%BD%CC%A8&asp_url=http%3A%2F%2F127.0.0.1%3A8080%2Fproxy%2Fitem%2F11%25E5%25AF%25B9%25E6%2588%2598%25E5%25B9%25B3%25E5%258F%25B0%2F6602849%3Flemmaid%3D6602849&eid=802 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *6 failed to load external Lua file "./lua/api/common/bkclick.lua": cannot open ./lua/api/common/bkclick.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/common/bkclick?type=pc_guesslike_request&_=1563953217777 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/wikiui/guesslike.lua": cannot open ./lua/api/wikiui/guesslike.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/wikiui/guesslike?url=http%3A%2F%2F127.0.0.1%3A8080%2Fproxy%2Fitem%2F11%25E5%25AF%25B9%25E6%2588%2598%25E5%25B9%25B3%25E5%258F%25B0%2F6602849&lemmaTitle=11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0&eid=202 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/wikiui/sharecounter.lua": cannot open ./lua/api/wikiui/sharecounter.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/wikiui/sharecounter?lemmaId=6602849&method=get HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *6 failed to load external Lua file "./lua/api/usercenter/login.lua": cannot open ./lua/api/usercenter/login.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/usercenter/login?_=1563953217778 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/wikiui/getlemmaconfig.lua": cannot open ./lua/api/wikiui/getlemmaconfig.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/wikiui/getlemmaconfig?r=0.9458596546316889 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:57 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/wikiad/getsquirrels.lua": cannot open ./lua/api/wikiad/getsquirrels.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/wikiad/getsquirrels?lemmaId=6602849&tags=%E8%BD%AF%E4%BB%B6%2C%E5%A8%B1%E4%B9%90&_=1563953217779 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:26:58 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/common/bkclick.lua": cannot open ./lua/api/common/bkclick.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/common/bkclick?type=pc_guesslike_fail&_=1563953217781 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:27:55 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/searchui/gethistory.lua": cannot open ./lua/api/searchui/gethistory.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/searchui/gethistory?limit=20&t=1563953275467&_=1563953217783 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:27:57 [error] 11464#6940: *10 failed to load external Lua file "./lua/api/searchui/gethistory.lua": cannot open ./lua/api/searchui/gethistory.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET /api/searchui/gethistory?limit=20&t=1563953277122&_=1563953217788 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:27:58 [error] 11464#6940: *10 CreateFile() "./html/search/word" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /search/word?word=%E8%B5%B7%E5%87%A1 HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/proxy/item/11%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0/6602849?fromtitle=11&fromid=8270434&fr=aladdin"
+2019/07/24 15:37:32 [alert] 5352#9464: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:37:32 [notice] 5352#9464: signal process started
+2019/07/24 15:37:32 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:37:32 [alert] 7548#7992: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:37:43 [error] 7548#11620: *11 failed to load inlined Lua code: content_by_lua(nginx.conf:78):2: unexpected symbol near '$', client: 127.0.0.1, server: , request: "GET /api2/sfssafas HTTP/1.1", host: "127.0.0.1:8080"
+2019/07/24 15:38:41 [alert] 7716#2676: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:38:41 [notice] 7716#2676: signal process started
+2019/07/24 15:38:41 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:38:41 [alert] 9496#12156: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:45:03 [alert] 11424#3724: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:45:03 [notice] 11424#3724: signal process started
+2019/07/24 15:45:03 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:45:03 [alert] 6920#12260: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:48:49 [alert] 1876#3264: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:48:49 [notice] 1876#3264: signal process started
+2019/07/24 15:48:49 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:48:49 [alert] 7068#11712: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:49:37 [alert] 7008#11636: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:49:37 [notice] 7008#11636: signal process started
+2019/07/24 15:49:37 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:49:37 [alert] 7576#8904: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:51:42 [alert] 8072#11944: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:37
+2019/07/24 15:51:42 [notice] 8072#11944: signal process started
+2019/07/24 15:51:42 [alert] 1304#2660: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37
+2019/07/24 15:51:42 [alert] 6000#5008: lua_code_cache is off; this will hurt performance in ./conf\nginx.conf:37

@@ -1,0 +1,3 @@
+
+待解决
+1. 引用lua-resty-core有问题,详见lua/api/api_0_not_in_lua_nginx_module.lua

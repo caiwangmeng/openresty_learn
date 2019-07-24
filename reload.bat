@@ -1,1 +1,1 @@
-..\openresty\nginx -p . -s reload
+openresty\nginx -p . -s reload
