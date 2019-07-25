@@ -1,2 +1,0 @@
-2019/07/24 22:25:43 [alert] 14280#10412: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:22
-2019/07/24 22:25:43 [alert] 2660#4120: lua_code_cache is off; this will hurt performance in ./conf\nginx1.conf:22
